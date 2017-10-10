@@ -32,10 +32,14 @@ body {
 .nav .mb {
   margin-bottom: 0.56rem;
 }
-footer .footer-header {
-  margin: 0 auto;
+footer {
   position: relative;
   top: 2.4rem;
+}
+footer .footer-header {
+  margin: 0 auto;
+  /*    position: relative;
+    top:2.4rem;*/
   color: #ffe57b;
   white-space: nowrap;
 }
@@ -57,8 +61,9 @@ footer .tel {
   margin: 0 auto;
   font-size: 0.26rem;
   color: #ffe57b;
-  position: relative;
-  top: 2.6rem;
+  margin-top: 0.36rem;
+  /* position: relative;
+    top:2.6rem;*/
 }
 footer .tel p {
   margin: 0;
