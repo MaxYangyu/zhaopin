@@ -1,19 +1,22 @@
-body {
-  background: url('../img/组-20@2x.png') no-repeat;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
+/*body {
+  background-color: #1f1207;
+
+}*/
+.header-img {
+  height: 10.34rem;
+  width: 7.5rem;
 }
 .bg {
   width: 6.4rem;
   height: 4.68rem;
-  position: relative;
-  top: 5.2rem;
+  position: absolute;
+  top: 4.6rem;
   left: 0.55rem;
 }
 .nav {
   width: 6.4rem;
-  position: relative;
-  top: 0.8rem;
+  position: absolute;
+  top: 4.8rem;
   left: 0.55rem;
   padding-left: 0.34rem;
   padding-right: 0.34rem;
@@ -34,12 +37,13 @@ body {
 }
 footer {
   position: relative;
-  top: 1.85rem;
+  top: -1px;
+  background-color: #1f1207;
 }
 footer .footer-header {
   margin: 0 auto;
   /*    position: relative;
-    top:2.4rem;*/
+        top:2.4rem;*/
   color: #ffe1ae;
   white-space: nowrap;
 }
@@ -54,21 +58,21 @@ footer .hx {
   height: 0.01rem;
 }
 footer .fl {
-  height: 1.2rem;
+  height: 1.1rem;
   display: inline-block;
 }
 footer .fr {
-  height: 1.2rem;
+  height: 1.1rem;
 }
 footer .tel {
   width: 6.4rem;
-  height: 1.2rem;
+  height: 1.1rem;
   margin: 0 auto;
   font-size: 0.26rem;
   color: #ffe1ae;
   margin-top: 0.36rem;
   /* position: relative;
-    top:2.6rem;*/
+     top:2.6rem;*/
 }
 footer .tel p {
   margin: 0;
